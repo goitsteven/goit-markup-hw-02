@@ -1,6 +1,7 @@
-.body {
-  font-family: "Roboto";
+body {
+  font-family: "raleway sans-serif";
   width: 1200px;
+  color:#F5F4FA
 }
 
 .header {
@@ -79,6 +80,7 @@
   font-family: "Roboto";
   justify-content: center;
   justify-items: center;
+  line-height:60px;
 }
 
 .button:hover {
@@ -88,8 +90,8 @@
 
 .button {
   display: flex; 
-
-   
+background-color: #2196f3;
+   color: #f5f4fa;
   justify-content: center;
   font-size: 16px;
 
@@ -101,22 +103,26 @@
   font-size: 14px;
   color: #19191a;
   font-family: "Roboto";
+  line-height:16px;
 }
 
 .text-a {
   font-size: 14px;
   color: #757575;
+  line-height:24px
 }
 .title-b {
   display: flex;
   font-size: 14px;
   color: #19191a;
   font-family: "Roboto";
+
 }
 
 .text-b {
   font-size: 14px;
   color: #757575;
+  line-height:24px
 }
 .title-c {
   display: flex;
@@ -128,17 +134,20 @@
 .text-c {
   font-size: 14px;
   color: #757575;
+  line-height:24px
 }
 .title-d {
   display: flex;
   font-size: 14px;
   color: #19191a;
   font-family: "Roboto";
+  line-height:16px;
 }
 
 .text-d {
   font-size: 14px;
   color: #757575;
+  line-height:24px
 }
 
 .title2 {
@@ -180,7 +189,8 @@
 .button1 {
   cursor: pointer;
 
-  background: #f5f4fa;
+  background:#2196f3;
+  color: #ffffff; 
 }
 
 .button1:hover {
@@ -232,5 +242,5 @@ background: #F5F4FA;
 }
 .button-d:hover {
   background: #2196f3;
-  color: #FFFFFF;
+  color: #F5F4FA;
 }
