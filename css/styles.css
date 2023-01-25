@@ -82,21 +82,35 @@ body {
   justify-items: center;
   line-height:60px;
 }
-
-.button:hover {
+.button-index:hover {
   background: #2196f3;
   color: #FFFFFF;
 }
 
-.button {
+.button-index {
   display: flex; 
-background-color: #2196f3;
+background: #2196f3;
    color: #f5f4fa;
   justify-content: center;
   font-size: 16px;
 
   cursor: pointer;
 }
+
+
+.button {
+  
+
+  cursor: pointer;
+  
+  background: #F5F4FA;
+  
+  }
+  .button:hover {
+    background: #2196f3;
+    color: #FFFFFF;
+  }
+    
 
 .title-a {
   display: flex;
@@ -196,51 +210,4 @@ background-color: #2196f3;
 .button1:hover {
   background: #2196f3;
   color: #ffffff;
-}
-
-.button-a {
-  cursor: pointer;
-
-  background: #f5f4fa;
-}
-
-.button-a:hover {
-  background: #2196f3;
-  color: #ffffff;
-}
-.button-b  {
-  
-
-cursor: pointer;
-
-background: #F5F4FA;
-
-}
-.button-b:hover {
-  background: #2196f3;
-  color: #FFFFFF;
-}
-.button-c {
-  
-
-cursor: pointer;
-
-background: #F5F4FA;
-
-}
-.button-c:hover {
-  background: #2196f3;
-  color: #FFFFFF;
-}
-.button-d  {
-  
-
-cursor: pointer;
-
-background: #F5F4FA;
-
-}
-.button-d:hover {
-  background: #2196f3;
-  color: #F5F4FA;
 }
